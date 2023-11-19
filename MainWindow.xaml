@@ -1,0 +1,15 @@
+﻿<Window x:Class="SearchReplaceRename.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TÌM KIẾM VÀ THAY THẾ - Tool" Height="314" Width="518" MinHeight="314" MinWidth="518">
+    <Grid Margin="0,11,0,-6">
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,0,18,248" Name="tbSearch" VerticalAlignment="Bottom" TextChanged="tbSearch_TextChanged" Width="387" />
+        <TextBox Height="23" Margin="113,0,18,219" Name="tbReplace" VerticalAlignment="Bottom" TextChanged="tbReplace_TextChanged" />
+        <TextBox Height="23" Margin="113,0,69,179" Name="tbPath" VerticalAlignment="Bottom" TextChanged="tbPath_TextChanged" />
+        <Label Content="Tìm kiếm:" Height="28" HorizontalAlignment="Left" Margin="7,0,0,243" Name="label1" VerticalAlignment="Bottom" Width="88" />
+        <Label Content="Thay thế bằng:" Height="28" HorizontalAlignment="Left" Margin="7,0,0,216" Name="label2" VerticalAlignment="Bottom" />
+        <Label Content="Chọn thư mục:" Height="28" HorizontalAlignment="Left" Margin="7,0,0,176" Name="label3" VerticalAlignment="Bottom" Width="88" />
+        <Button Content="..." Height="23" HorizontalAlignment="Right" Margin="0,0,18,179" Name="btnChooseFile" VerticalAlignment="Bottom" Width="46" Click="btnChooseFile_Click" />
+        <Button Content="Bắt đầu" Height="23" HorizontalAlignment="Right" Margin="0,0,18,132" Name="btnGo" VerticalAlignment="Bottom" Width="75" Click="btnGo_Click" IsEnabled="False" />
+    </Grid>
+</Window>
